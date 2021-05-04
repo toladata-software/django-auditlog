@@ -13,7 +13,7 @@ The core idea of Auditlog is similar to the log from Django’s admin. Unlike th
 Documentation
 -------------
 
-The documentation for ```django-auditlog``` can be found on http://django-auditlog.readthedocs.org. The source files are available in the ```docs``` folder.
+coming soon
 
 License
 -------
