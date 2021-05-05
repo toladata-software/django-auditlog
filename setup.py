@@ -2,9 +2,6 @@ import os
 
 from setuptools import setup
 
-# Readme as long description
-with open(os.path.join(os.path.dirname(__file__), "README.md"), "r") as readme_file:
-    long_description = readme_file.read()
 
 setup(
     name="django-auditlog",
@@ -20,7 +17,7 @@ setup(
     license="MIT",
     author="TolaData",
     description="Audit log app for Django",
-    long_description=long_description,
+    long_description="Audit log app for Django",
     long_description_content_type="text/markdown",
     install_requires=["django-jsonfield>=1.0.0", "python-dateutil>=2.6.0"],
     zip_safe=False,
