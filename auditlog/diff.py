@@ -2,7 +2,10 @@ from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
 from django.db.models import NOT_PROVIDED, DateTimeField, Model
 from django.utils import timezone
-from django.utils.encoding import smart_text
+
+
+def smart_str(x):
+    return str(x)
 
 
 def track_field(field):
